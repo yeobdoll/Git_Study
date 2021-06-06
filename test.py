@@ -1,14 +1,13 @@
 # Hello World
+
 print("hello world")
 
-a = 1
-b = 2
-c = 3
+a = 10
+b = 20
+
 # Calc
-d = b + c
+c = a + b
+print(c)
 
-
-print(a+b)
-
-print(d)
-print(a * b)
+# conflict
+print("conflict")
