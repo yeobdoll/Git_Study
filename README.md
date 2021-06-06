@@ -47,3 +47,9 @@
 -------------------------------------------------
 **git log --all --decorate --oneline --graph**
 -------------------------------------------------  
+- merge
+- mergetool
+- push
+- clone
+- fetch
+- pull
