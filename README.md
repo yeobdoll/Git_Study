@@ -40,3 +40,10 @@
   - --soft: working directory와 staging area를 제외한 나머지
 - checkout -- 파일명
   - staging area에 올라오기 전의 수정된 파일(modified 파일)을 없앰. (잘 안씀)
+- branch 
+  1. git branch
+  2. git branch -d feature
+  3. git checkout -b feature  
+-------------------------------------------------
+**git log --all --decorate --oneline --graph**
+-------------------------------------------------  
