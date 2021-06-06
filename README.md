@@ -62,3 +62,6 @@
 - rebase 공부하고 있습니다.
 -------------------------------------
 - rebase
+  1. git rebase --continue (계속)
+  2. git rebase --abort (취소)
+  - --continue와 --abort 옵션은  merge, rebase 등에 활용한다.
