@@ -25,3 +25,16 @@
   1. git diff 해시1 해시2
   - 수정 또는 변경한 것을 비교해서 보여준다.
 - .gitignore
+- commit --amend
+  1. git commit --amend -m "변경할 메시지"
+  2. git commit --amend --no-edit
+  - 커밋 메시지는 건드리지 않고 수정한 것을 덮어 쓰겠다. (해시 바뀜)o
+- rebase -i
+  1. git rebase -i 해시
+  - 입력한 해시와 이전 해시는 포함하지 않고 그 이후 커밋들을 설정한다.
+  - reword: commit 메시지 수정
+  - squash: commit을 합체
+- reset
+  - --hard: 전부
+  - --mixed: working directory를 제외한 나머지
+  - --soft: working directory와 staging area를 제외한 나머지
