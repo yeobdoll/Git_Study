@@ -66,3 +66,7 @@
   2. git rebase --abort (취소)
   - --continue와 --abort 옵션은  merge, rebase 등에 활용한다.
 - tag
+- stash
+  1. git stash (모든 작업이 stashed area으로 잠깐 이동)
+  2. git stash pop (작업 다시 불러와 적용하기)
+  - stash는 pop 구조이다.

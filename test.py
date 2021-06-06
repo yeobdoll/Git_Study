@@ -16,3 +16,4 @@ name = "yeob"
 print("안녕! 난 {}이라고해 잘부탁해!".format(name))
 q = input("넌 어디서 왔니? ")
 print(q)
+print("{}에서 왔어! 만나서 반가워~^^",fortmat(q))
