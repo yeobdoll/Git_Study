@@ -70,3 +70,10 @@
   1. git stash (모든 작업이 stashed area으로 잠깐 이동)
   2. git stash pop (작업 다시 불러와 적용하기)
   - stash는 pop 구조이다.
+- blame
+- alias
+- reflog
+- editor
+-------------------------------------
+#### 마무리
+- **감사합니다.**
